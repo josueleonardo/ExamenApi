@@ -9,7 +9,6 @@ namespace CRUDApiTarea.Models
     {
         public static List<Product> Products = new List<Product>();
 
-
         public static Product FindProduct(int id)
         {
             Product product;
@@ -25,6 +24,5 @@ namespace CRUDApiTarea.Models
             return (true);
 
         }
-
     }
 }

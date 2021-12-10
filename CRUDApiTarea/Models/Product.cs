@@ -13,6 +13,5 @@ namespace CRUDApiTarea.Models
         public string code { get; set; }
         public string url_image { get; set; }
         public List<Model> models { get; set; }
-
     }
 }

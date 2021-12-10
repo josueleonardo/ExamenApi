@@ -119,7 +119,7 @@ namespace CRUDApiTarea.Controllers
                 }
                 DB.Products.RemoveAt(index);
                 DB.Products.Add(product);
-                return Ok(product); // HTTP 200
+                return Ok(product); // HTTP 200*/
             }
             catch (Exception e)
             {
